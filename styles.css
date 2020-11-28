@@ -4,11 +4,13 @@
     --primary-color: #3B82F6;
     --off-white: #F3F4F6;
     --dark-gray: #8B7280;
+    --dark-pink:#F87171;
 }
 
 body{
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+    padding-bottom:2rem
 }
 hr{
     margin: 2rem 0rem;
@@ -46,6 +48,12 @@ hr{
     color:var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+}
+
+.link-plane{
+    color:none;
+    border-radius: 0rem;
+    border: 0px;
 }
 
 /* lists */
@@ -140,4 +148,10 @@ hr{
 }
 .footer ul{
     padding-inline-start: 0px;
+}
+
+.blog{
+   color: var(--dark-pink);
+   text-decoration: underline;
+   
 }
